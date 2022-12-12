@@ -11,6 +11,8 @@ body {
 	height: 100vh;
 	width: 100vw;
 	background: linear-gradient(150deg, #ffafbd, #ffc3a0);
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	display: flex;
 	justify-content: center;
@@ -21,6 +23,9 @@ body {
 	border: 1px solid white;
 	height: 20vw;
 	width: 20vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 1vw;
 	border-radius: 50%;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
@@ -28,12 +33,13 @@ body {
 	& p {
 		position: relative;
 		color: azure;
+
 		animation-name: spin;
 		animation-duration: 20s;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
 		animation-fill-mode: forwards;
-		font-size: 1.2vw;
+		//font-size: 1.2vw;
 
 		& span {
 			position: absolute;
